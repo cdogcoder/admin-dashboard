@@ -101,6 +101,9 @@ img, button {
     background-color: rgba(24,146,211,255);
     font-size: 1.15rem;
     width: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
