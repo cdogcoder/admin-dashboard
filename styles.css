@@ -36,6 +36,8 @@ img, button {
 .sidebar-title {
     font-size: 1.75rem;
     font-weight: bold;
+    display: flex;
+    gap: 12px;
 }
 
 .sidebar-primary-tabs, .sidebar-secondary-tabs {
@@ -236,9 +238,6 @@ img, button {
     font-size: 1.65rem;
 }
 
-.announcement-info-wrapper .announcement-description {
-    font-size: 
-}
 
 .announcement-card:not(:last-child) {
     border-bottom: 2px solid rgba(128, 128, 128, 0.25);
@@ -314,4 +313,15 @@ img, button {
     width: 35px;
     height: auto;
     flex-shrink: 0;
+}
+
+.sidebar-title svg {
+    flex-shrink: 0;
+    width: 40px;
+    height: auto;
+}
+
+.sidebar-title svg path {
+    display: inline;
+    fill: white;
 }
