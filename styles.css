@@ -132,7 +132,7 @@ img, button {
 }
 
 .projects-section .project-card {
-    height: 300px;
+    height: 400px;
     background-color: white;
     border-radius: 12px;
     display: flex;
@@ -149,6 +149,41 @@ img, button {
 .announcements-section {
     grid-column: 2/3;
     grid-row: 1/2;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements-section .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.announcements-container {
+    padding: 8px 0px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcement-card {
+    flex: 1;
+    background-color: white;
+}
+
+.announcement-card:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.announcement-card:not(:last-child) {
+    border-bottom: 2px solid black;
+}
+
+.announcement-card:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .trending-section {
