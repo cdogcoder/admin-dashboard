@@ -216,4 +216,21 @@ img, button {
 .trending-card {
     background-color: white;
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+
+
+.trending-card .other-username, .trending-card .other-user-name {
+    font-size: 1.25rem;
+}
+
+.trending-card .other-username {
+    font-weight: bold;
+}
+
+.trending-card .other-user-name {
+    color: rgb(128, 128, 128);
 }
