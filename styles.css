@@ -80,7 +80,7 @@ img, button {
     /* border: 2px solid green; */
     display: flex;
     align-items: center;
-    gap: 36px;
+    gap: 24px;
 }
 
 .greeting-card {
@@ -335,9 +335,15 @@ img, button {
     fill: white;
 }
 
-.trending-section img {
+.trending-section img, .header-primary-options img, .header-secondary-options img {
     width: 75px;
     height: 75px;
     object-fit: cover;
     border-radius: 36px;
+}
+
+.header-primary-options img {
+    width: 50px;
+    height: 50px;
+    margin-right: -5px;
 }
