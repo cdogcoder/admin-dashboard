@@ -292,3 +292,15 @@ img, button {
 .project-card, .announcements-container, .trending-container {
     box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.25);
 }
+
+.search-button {
+    background: none;
+    border: none; 
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: auto;
+    flex-shrink: 0;
+}
