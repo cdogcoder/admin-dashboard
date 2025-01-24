@@ -176,6 +176,17 @@ img, button {
     align-self: flex-end;
 }
 
+.card-options * {
+    background: none;
+    border: none; 
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: auto;
+}
+
 .announcements-section {
     grid-column: 2/3;
     grid-row: 1/2;
