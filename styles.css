@@ -219,9 +219,14 @@ img, button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 52px;
 }
 
+.info-wrapper {
+    width: 80%;
+    display: flex;
+    gap: 52px;
+    align-items: center;
+}
 
 .trending-card .other-username, .trending-card .other-user-name {
     font-size: 1.25rem;
