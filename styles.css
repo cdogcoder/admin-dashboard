@@ -92,7 +92,6 @@ img, button {
 }
 
 .header-secondary-options [class$="-button"] {
-    width: fit-content;
     height: unset;
     padding: 8px 30px; 
     border: none;
@@ -101,6 +100,7 @@ img, button {
     color: white;
     background-color: rgba(24,146,211,255);
     font-size: 1.15rem;
+    width: 115px;
 }
 
 .content {
