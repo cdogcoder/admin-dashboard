@@ -283,7 +283,7 @@ img, button {
 .info-wrapper {
     width: 80%;
     display: flex;
-    gap: 52px;
+    gap: 28px;
     align-items: center;
 }
 
@@ -333,4 +333,11 @@ img, button {
 .sidebar-title svg path, .sidebar svg path {
     display: inline;
     fill: white;
+}
+
+.trending-section img {
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+    border-radius: 36px;
 }
