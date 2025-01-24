@@ -213,6 +213,22 @@ img, button {
     text-align: left;
 }
 
+.announcement-card .announcement-info-wrapper {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.announcement-info-wrapper .announcement-title {
+    font-weight: bold;
+    font-size: 1.65rem;
+}
+
+.announcement-info-wrapper .announcement-description {
+    font-size: 
+}
+
 .announcement-card:not(:last-child) {
     border-bottom: 2px solid rgba(128, 128, 128, 0.25);
 }
