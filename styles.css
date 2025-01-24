@@ -147,6 +147,9 @@ img, button {
     justify-content: flex-end;
     align-items: flex-end;
     padding: 16px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border-left: 12.5px solid rgba(238,180,40,255);
 }
 
 .project-card .card-options {
