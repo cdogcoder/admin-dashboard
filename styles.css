@@ -144,17 +144,36 @@ img, button {
     background-color: white;
     border-radius: 12px;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 16px;
+    flex-direction: column;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     border-left: 12.5px solid rgba(238,180,40,255);
 }
 
+.project-card .project-info-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.project-info-wrapper .project-title {
+    font-weight: bold;
+    font-size: 1.75rem;
+}
+
+.project-card .project-description {
+    font-size: 1.35rem;
+}
+
 .project-card .card-options {
     display: flex;
     gap: 24px;
+    align-self: flex-end;
 }
 
 .announcements-section {
