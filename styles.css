@@ -145,7 +145,7 @@ img, button {
 
 .projects-container {
     display: grid;
-    gap: 15px;
+    gap: 24px;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
     padding: 8px;
 }
